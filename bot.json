@@ -1,0 +1,795 @@
+{
+    "intents":
+    [
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "hiiiiiiiiii", "hiiiii", "hiiiiiii","hiiii", "hiii", "hii", "hiiiiii","hiiiiiiiii","hiiiiiiiiiiiiiii",
+                "hiiiiiiiiiiiiiiiiiiiiiiii",
+                "ji","ho","ki gi","gi","Hel","helo",
+                "Hey heyy heyyy heyyyy heyyyyy heyyyyyyy",
+                "Hello hollo alloo helo",
+                "Helloo ","hellooo", "helloooo", "hellooooo", "helloooooo", "helloooooo"
+            ],
+            "responses":[
+                "Hi, how can I help you? "
+            ]
+        },
+        {
+            "tag":"greeti",
+            "patterns":[
+                "How are you?",
+                "How R U",
+                "How are U","howa re U","howare you","howare U"
+            ],
+            "responses":[
+                "I'm fine, what can I do for you?"
+            ]
+        },
+        {
+            "tag":"there",
+            "patterns":[
+                "Is any one there?",
+                "does any body there?"
+            ],
+            "responses":[
+                "Yes, tell me how can I help you."
+            ]
+        },
+        {
+            "tag":"Full form",
+            "patterns":[
+                "What is full form of CUTN?",
+                "CUTN full form?"
+            ],
+            "responses":[
+                "Central University of Tamil Nadu"
+            ]
+        },
+        {
+            "tag":"chances",
+            "patterns": [
+                "What is the probability of getting seat in cutn?",
+                "Chances to get seat / join in CUTN?",
+                "Chances of getting admission / join in cutn",
+                "What are the chances to get seat in cutn?",
+                "What are the chances getting admission cutn?"
+            ],
+            "responses":[
+                "It depends on the score you obtain  in CUET entrance test and satisfying the eligibility conditions."
+            ]
+        },
+        {
+            "tag":"good bye",
+            "patterns": ["Bye","see you later","Good bye"],
+            "responses":[
+                "see you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! visite again, have a nice day "
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["Tq","Thankyou","ThankU","Thanks","Thank you","Thank you very much","Thanks for the help"],
+            "responses":["Welcome,happy to help!"]
+        },
+        {
+            "tag":"Locate",
+            "patterns":[
+                "how to reach central university of tamil nadu?",
+                "how to reach cutn?",
+                "Locate cutn?",
+                "cutn locate",
+                "Can you locate cutn"
+            ],
+            "responses":[
+                "Central University of Tamil Nadu is located in Thiruvarur,Tamil Nadu,India; a]Tiruchirappalli / Trichy (120 km away) and Chennai International Airport (299 km) are the nearest airports. b]The nearest railway station is Thiruvarur Junction (TVR), and the connecting stations are Tiruchirappalli Junction (Trichy - TPJ) and Thanjavur Junction in the east, and Mayiladuthurai Junction (MV) in the north. Check the available trains at IRCTC website : https://www.irctc.co.in/nget/train-search e]Train from Chennai Egmore (MS) to Thiruvarur (TVR) runs daily, with two direct trains. The other option by train is to come to Mayiladuthurai, Kumbakonam (KMU), or Thanjavur (TJ) and take a bus from there to Thiruvarur. f]Through Bus : Both government and private buses are available from Chennai to Thiruvarur or Mayiladuthurai. People coming via Tiruchirappalli (Trichy) or Thanjavur will have to take the government buses to Thiruvarur. There are buses available for Thiruvarur from a few significant places like Trivandrum, Nagercoil, Ernakulam, Bangalore, and Chennai l] Check the Buses at TNSTC website https://www.tnstc.in/home.html k]Google maps link : https://goo.gl/maps/eFXLZFm93QU2sfrL8" 
+            ]
+        },
+        {
+            "tag":"admissions",
+            "patterns":[
+                "how to get admission in Central University of Tamil Nadu (CUTN)?",
+                "join in get admission into iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech CUTN ?",
+                "tell me the admission process / procedure?",
+                "secure seat / admission in cutn?",
+                "process my admission in iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech?",
+                "What is the admission process for iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech?",
+                "guid / help me to join in cutn iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech",
+                "assist me to secure admission in cutn",
+                "how to join in cutn",
+                "admission",
+                "Admission for iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech"
+            ],
+            "responses":[
+                "Write Common University Entrance Test (CUET) for UG/PG get a good mark in the test and at the time of counselling submit your documents in samarath portal of  CUTN (Central University of Tamil Nadu). The candidates are also advised to be in touch with the NTA website(s) https://www.nta.ac.in and https://cuet.samarth.ac.in/ for the latest updates regarding the exam."     
+            ]
+        },
+        {
+            "tag":"Last date",
+            "patterns":[
+                "When is the last date for CUET application?",
+                "What is the last date for CUET application ?"
+            ],
+            "responses":[
+                "To know the latest information it's better to visit the official website https://cuet.nta.nic.in/ and check the latest notification."
+            ]
+        },
+        {
+            "tag":"p.hd",
+            "patterns":[
+                "P.hd is available ?",
+                "phd join in how to",
+                "join in phd",
+                "in PHD admission"
+            ],
+            "responses":[
+                "Refer the respective departments webpage"
+            ]
+        },
+        {
+            "tag":"financial",
+            "patterns":[
+                "What is the financial support for research scholars?",
+                "Financial support for p.hd scholars?"
+            ],
+            "responses":[
+                
+            ]
+        },
+        {
+            "tag":"reach from Railway station",
+            "patterns":[
+                "How to reach CUTN (Central University of Tamil Nadu) from Thiruvarur Railway station ?"
+            ],
+            "responses":[
+                "1) Go to Thiruvarur “Old Bus stand” which is walkable distance from the railway station 2) On every weekend (Saturday & Sunday) for the convenience of students CUTN's own bus is provided from Thiruvarur old Bus Stand to CUTN Main Gate. Timings are: a]Pick Up - Thiruvarur Bus Stand by 11:00 AM, 03:00 PM and 05:30 PM respectively and Dropped at CUTN Main Gate by 11:30 AM, 3:30 PM and 6:00 PM respectively. 3) Private buses (kutty) are available directly to the CUTN from the old bus stand. Catch the bus Happily reach the CUTN ** Enquire about bus timings at old bus stand ; * Which is cheap and best way * b]missed the direct bus ----> here is Alternative way 4) There are so many buses available from the old bus stand to reach the place Kangalancherry, which is the closest bus stop to CUTN. Take AUTO from kangalancherry to CUTN; 5) Take AUTO from the Thiruvarur Railway station to CUTN.**Usually auto fares are very high. The fare depends on the situation and your urgency,auto drivers will take advantage of your urgency and demands more money. ** c]Caution: If you are a girl alone at night, do not take unnecessary risks and choose the safest mode of transport. "
+            ]
+        },
+        {
+            "tag":"dean",
+            "patterns":[
+                "Dean contact",
+                "contact my dean?",
+                "how to contact dean?"
+            ],
+            "responses":[
+                "Refer the following webpage https://cutn.ac.in/deans/"
+            ]
+        },
+        {
+            "tag":"students welfare",
+            "patterns":[
+                "how to contact dean of students welfare?",
+                "students welfare dean",
+                "dean students welfare"
+            ],
+            "responses":[
+                "Refer the following webpage https://cutn.ac.in/dsw/"
+            ]
+        },
+        {
+            "tag":"through train",
+            "patterns":[
+                "How to reach CUTN through Train ?",
+                "train",
+                "reach through train",
+                "how to reach cutn by train",
+                "I want to reach by train?",
+                "near by railway station to thiruvarur",
+                "Can i reach by train",
+                "guid me to reach cutn by train",
+                "nearest railway station to cutn",
+                "how to reach cutn from chennai railway station"
+            ],
+            "responses":[
+                "The nearest railway station is Thiruvarur Junction (TVR), and the connecting stations are Tiruchirappalli Junction (Trichy - TPJ) and Thanjavur Junction (TJ) in the east, and Mayiladuthurai Junction (MV) in the north. Train from Chennai Egmore (MS) to Thiruvarur (TVR) runs daily, with two direct trains. The other option by train is to come to Mayiladuthurai, Kumbakonam (KMU), or Thanjavur (TJ) and take a bus from there to Thiruvarur. a]Check the trains at IRCTC website https://www.irctc.co.in/nget/train-search "
+            ]
+        },
+        {
+            "tag":"train timings",
+            "patterns":[
+                "can you tell me the train timings",
+                "Tell me the train timings"
+            ],
+            "responses":[
+                "Refer the IRCTC website : https://www.irctc.co.in/nget/train-search"
+            ]
+        },
+        {
+            "tag":"through Bus",
+            "patterns":[
+                "How to reach CUTN through Bus?",
+                "can you guid me to reach CUTN from chennai",
+                "can you guid me to reach CUTN from Tiruchirappalli",
+                "can you guid me to reach CUTN from Trichy",
+                "can you guid me to reach CUTN from Thanjavur",
+                "Can i reach by bus",
+                "guid me to reach cutn by bus"
+
+            ],
+            "responses":[
+                "Both government and private buses are available from Chennai to Thiruvarur or Mayiladuthurai. People coming via Tiruchirappalli (Trichy) or Thanjavur will have to take the government buses to Thiruvarur. There are buses available for Thiruvarur from a few significant places like Trivandrum, Nagercoil, Ernakulam, Bangalore, and Chennai. a]Check the Buses at TNSTC website https://www.tnstc.in/home.html"
+            ]
+        },
+        {
+            "tag":"Airport",
+            "patterns":[
+                "What is the nearest AIRPORT to CUTN ?",
+                "airport near CUTN?",
+                "Airport",
+                "Air port",
+                "Can i reach CUTN by flight?"
+            ],
+            "responses":[
+                "Tiruchirappalli / Trichy (120 km away) and Chennai International Airport (299 km) are the nearest airports."
+            ]
+        },
+        {
+            "tag":"Secure girls",
+            "patterns":[
+                "How secure the girls hostel would be?",
+                "Does girls are secure in the campus?",
+                "How the girls hostel would be?",
+                "Girls hostel is how much close to boys hostel?",
+                "Does the hostel is secure",
+                "Does the campus is safe to girls",
+                "campus is safe for women",
+                "Safty for women",
+                "safty in the campus",
+                "what about safty in the campus"
+            ],
+            "responses":[
+                "Security in the campus is very strict,without a valid document Security won't allow the person to enter into the campus; All the premises and hostels in the campus is covered under CCTV surveillance and caretakers will monitor the hostels 24/7 ;  Girls and boys hostels are very much far away to each other.If you face any issues regarding ragging contact the Anti-Ragging Squad Committee https://cutn.ac.in/anti-ragging-squad/, respective action will be taken by them on the spot and punishments will be very severe."
+            ]
+        },
+        {
+            "tag":" Hostel Fee structure",
+            "patterns":[
+                "What is the hostel Fee structure?",
+                "Hostel fee structure?",
+                "hostel fee",
+                "hostel room rent","room rent per person",
+                "about hostel fee"
+            ],
+            "responses":[
+                " You can found more on the web page by click on the link : https://cutn.ac.in/hostel/# a] Hostel Mess Deposits (Refundable)  - Rs. 3000 /- b] Caution Deposit (Refundable) - Rs. 2000/- c] Room Rent - Per semester - Rs. 2000/- (SC and ST students are exempted for Room Rent)"
+            ]
+        },
+        {
+            "tag":"people",
+            "patterns":[
+                "how many persons are there in hostel room",
+                "persons per hostel room",
+                "mens per hostel room",
+                "how many peoples / persons will be allotted per one hostel room"
+            ],
+            "responses":[
+                "It will be decided by the hostel administration."
+            ]
+        },
+        {
+            "tag":"Fee structure",
+            "patterns":[
+                "What is the fee structure of UG courses?",
+                "What is the fee structure of PG courses?",
+                "fee structure",
+                "What about Fee",
+                "about fee",
+                "about fees",
+                "about admission fee?",
+                "can you tell me what is admission fee",
+                "what is the fee structure"
+            ],
+            "responses":[
+                "Visit the web page to get the updated FEE structure for all the courses : https://cutn.ac.in/fee-structure/ ; a]Admissions > Fee Structure. *Consider the latest fee structure*"
+            ]
+        },
+        {
+            "tag":"mode of fee",
+            "patterns":[
+                "what is the mode of payment",
+                "mode of payment",
+                "mode of fee payment",
+                "will you accept cash payments"
+            ],
+            "responses":[
+                "All kinds of payments related to CUTN are ONLINE, pay through SBI collect only https://www.onlinesbi.sbi/sbicollect/icollecthome.htm CUTN will not accept physical cash payments."
+            ]
+        },
+        {
+            "tag":"List courses",
+            "patterns":[
+                "List out the courses available in CUTN ?",
+                "courses list",
+                "list the courses?",
+                "Courses offered in cutn",
+                "available courses",
+                "courses offerred in cutn",
+                "programmes offered in cutn"
+            ],
+            "responses":[
+                "1) Integrated programmes (Five Years) a] Integrated M.Sc Biotechnology b]Integrated M.Sc Chemistry b]Integrated M.Sc Mathematics c]Integrated M.Sc Physics d]Integrated M.A Economics e]Integrated M.P.A Music ; \n 2) Four Years B.Sc.B.Ed (Mathematics) ; \n 3) PG Programmes (Two Years) f]M.Sc Applied Psychology g]M.Sc Chemistry h]M.Sc Computer Science j]M.Sc Epidemiology k]M.Sc Geography l]M.Sc Geology m]M.sc Horticulture n]M.Sc Microbiology o]M.Sc Statistics & Applied Mathematics p]M.A Economics q]M.A English r]M.A Hindi s]M.A History t]M.A Mass Communication u]M.A Tamil v]M.Com w]MBA x]MBA Tourism & Hospitality y]MSW z]M.Tech Materials Science a]LL.M "
+            ]
+        },
+        {
+            "tag":"contact Hostel",
+            "patterns":[
+                "How to contact Hostel office?",
+                "Contact Hostel office?"
+            ],
+            "responses":[
+                "Phone No: 04366-277279 ; E-mail: hosteloffice@cutn.ac.in"
+            ]
+        },
+        {
+            "tag":"contact",
+            "patterns":[
+                "How to contact CUTN?",
+                "Contact number?",
+                "contact no."
+            ],
+            "responses":[
+                "TELEPHONE : +91 4366 277230 ; INTERNATIONAL : +91 4366 277230 a] EMAIL: admissions@cutn.ac.in  b]For Admission queries only : 9443180353 / 6382775375 / 9489329760 / 9901302124 / 9631240595"
+            ]
+        },
+        {
+            "tag":"documents admission",
+            "patterns":[
+                "What are the documents required for Admission?",
+                "Documents for Admission in UG?",
+                "Ducuments for Admission in PG?",
+                "admission documents",
+                "documents needed for avail admission",
+                "documents admission cutn",
+                "can you tell me documents needed for admission"
+            ],
+            "responses":[
+                "Documents required for admission: 1)Photo 2) Signature 3) Date of Birth 4) Caste certificate 5) EWS certificate 6) CUET Scorecard 7) Admit Card 8) Class X MARKSHEET & CERTIFICATE (If both are same Upload twice) 9) Class XII MARKSHEET & CERTIFICATE (If both are same Upload twice) 10) Transfer Certificate 11) Admission Fee receipt 12) UG provisional Certificate (for PG admission) 13) Marks memos of all the semester's which you attended in UG."
+
+            ]
+        },
+        {
+            "tag":"Documents Hostel",
+            "patterns":[
+                "Documents required for Hostel Admmission / room?",
+                "Required docs for Hostel allotment/ room?",
+                "Hostel allotment procedure?",
+                "Documents for hostel admission / room",
+                "How to get hostel admission / room",
+                "How to avail hostel admission / room"
+            ],
+            "responses":[
+                "To secure the HOSTEL Admission: Keep in hand the following documents and submit at the hostel office In-person on office hours 1) Fill the Hostel Admission form which is downloaded from the CUTN website https://cutn.ac.in/wp-content/uploads/2022/11/Hostel_Application_form_for_New_Admission_10112022.pdf 2) Copy of Admit Card of CUTN 3) Copy of Caste and Income certificate (In case of SC/ST/OBC/EWS) 4) Three passport size photos (Two photos to be affixed and one to be enclosed with the application) 5) Copy of Hostel Fee receipt(E-receipt) 6) For Proof of Residence, any one of the following will be considered: a]Residence Certificate issued by the competent authority  b]Voter ID Card(EPIC) c]Driving License  d]Telephone Bill  d]Aadhar Card e]Passport f]Ration Card g]Bank Passbook (One year old) h]Pay the HOSTEL FEE through SBI collect https://www.onlinesbi.sbi/sbicollect/icollecthome.htm ; For more information refer the webpage https://cutn.ac.in/hostel/"
+            ]
+        },
+        {
+            "tag":"SBI collect fee",
+            "patterns":[
+                "How to pay Admission Fee usin SBI collect?",
+                "How to use SBI collect for Admission fee?",
+                "How to pay the admission fee?",
+                "how to use sbi collect?",
+                "how to pay using sbi collect?",
+                "payment procedure",
+                "payment process",
+                "how to pay feee",
+                "can you tell me how to pay fee",
+                "guid me to pay admission fee",
+                "SBI collect"
+            ],
+            "responses":[
+                "1)Open the SBI collect website https://www.onlinesbi.sbi/sbicollect/icollecthome.htm and Search for 'Central University of Tamil Nadu' in the Search bar or 2)Select the 'Educational Institution' in category 3)Type the Educational Institution Name as 'Central University of Tamil Nadu'. 4)Click on the institution name. 5)Choose the appropriate payment category and fill the particulars accordingly a]For Admission: choose 'NEW ADMISSION'. 6)Choose the payment method & pay accordingly. 7)** Fill the Particulars carefully **** Must DOWNLOAD / PRINT the E-receipt. **"
+            ]
+        },
+        {
+            "tag":"xerox",
+            "patterns":[
+                "Does the xerox facility is available?",
+                "Photos copies are available?",
+                "Xerox shops are there",
+                "Xerox is available"
+            ],
+            "responses":[
+                "Yes, there is a xerox shop available in the campus near the Hostel office. It is situated at the Aminities building."
+            ]
+        },
+        {
+            "tag":"Markets,shops",
+            "patterns":[
+                "Markets near the CUTN campus ?",
+                "hotels, shops in the campus",
+                "Does any market is there near CUTN?"
+            ],
+            "responses":[
+                "Thiruvarur is a town where you can find the markets which will full-fill your basic needs. One store is available outside of the campus, it will satisfy the basic needs.",
+                "In the campus at the aminities building Xerox shop, Resturant, Fruits shop and snacks item shops are available"
+            ]
+        },
+        {
+            "tag":"Allotment",
+            "patterns":[
+                "How to know the Hostel allotment status?",
+                "hostel allotment process / procedure",
+                "hostel admission process / procedure",
+                "how to know the status of hostel room",
+                "hostel room admmission / allotment status"
+            ],
+            "responses":[
+                "Hostel allotment is an offline(In-person) process,so you have to enquire at the hostel office only."
+            ]
+        },
+        {
+            "tag":"Download",
+            "patterns":[
+                "How to download hostel application form?",
+                "download hostel admission form",
+                "download hostel application form",
+                "hostel application form"
+            ],
+            "responses":[
+                "Refer the webpage https://cutn.ac.in/hostel/ a]Download the form : https://cutn.ac.in/wp-content/uploads/2022/11/Hostel_Application_form_for_New_Admission_10112022.pdf"
+            ]
+        },
+        {
+            "tag":"MESS",
+            "patterns":[
+                "What is the Mess bill per month?",
+                "mess bill",
+                "how much can i payable to mess?",
+                "would be the mess bill"
+            ],
+            "responses":[
+                "As of the date 15/02/2023,mess charge 'per day' is Rs.90/-,which includes : breakfast,lunch and dinner **later time price may change**"
+            ]
+        },
+        {
+            "tag":"MESS structure",
+            "patterns":[
+                "common messs for both girls and boys",
+                "seperate mess or common mess?",
+                "What about mess"
+            ],
+            "responses":[
+                "On the campus, the mess is separate for boys and girls to avoid overcrowding."
+            ]
+        },
+        {
+            "tag":"pay mess bill",
+            "patterns":[
+                "How to pay Mess bill?",
+                "How can i pay Mess bill?"
+            ],
+            "responses":[
+                "Currently they are accepting physical cash only, occasionally accepts UPI (online) transactions."
+            ]
+        },
+        {
+            "tag":"ATM",
+            "patterns":[
+                "Does any ATM is available at the campus?",
+                "ATMs are there?",
+                "What about ATM?"
+            ],
+            "responses":[
+                "Inside CUTN campus beside the post Office the SBI bank along with an ATM facility 24/7 is availabe,situated at the admin block."
+            ]
+        },
+        {
+            "tag":"Eligibility",
+            "patterns":[
+             "What are the eligibility condition to get admission in cutn ?",
+             "What are the eligibility condition to get seat in central University of tamil nadu?",
+             "eligibility for getting admission",
+             "eligibility admission",
+             "CUET notification",
+             "CUET pg / ug"
+            ],
+            "responses":[
+                "Refer CUET official website https://cuet.nta.nic.in/ , To know the eligibility conditions check the latest notification. https://cutn.ac.in/wp-content/uploads/2023/02/CUET_UG_2023_Eligibility_criteria_10022023.pdf"
+            ]
+        },
+        {
+            "tag":"Alcoho cigarettes",
+            "patterns":[
+                "Does cigarettes are allowed in the campus ?",
+                "Alcohol is allowed in the campus ?",
+                "Drugs are allowed?",
+                "cigarets / alchol is peremitted in the campus",
+                "Does the campus is drug free",
+                "ganja is allowed in the campus",
+                "Beer liquor is allowed?",
+                "cigarettes are permitted",
+                "cigareets are available"
+            ],
+            "responses":[
+                "Consumption of all kinds of 'psychoactive drugs'(psychoactive substances include a]Alcohol g]Cigarettes h]Ganja b]Caffeine c]Nicotine d]Marijuana e]certain pain medicines. f]Many illegal drugs, such as heroin, LSD,cocaine, and amphetamines are also psychoactive substances. Also called psychotropic substances)  are strictly PROHIBITED inside and around the campus."
+            ]
+        },
+        {
+            "tag":"Ragging",
+            "patterns":[
+                "Ragging is allowed in the campus ? ",
+                "Is Ragging allowed on campus ? ",
+                "What about Ragging in the campus ?",
+                "does cutn is ragging free?"
+            ],
+            "responses":[
+                "CUTN is a RAGGING free campus.If you face any issues regarding ragging contact the Anti-Ragging Squad Committee https://cutn.ac.in/anti-ragging-squad/, respective action will be taken by them on the spot and punishments will be very severe."
+            ]
+        },
+        {
+            "tag":"doing",
+            "patterns":[
+                "What are you doing ?",
+                "What will you do?",
+                "what can you do for me?",
+                "what is your purpose?",
+                "How can you help me?"
+            ],
+            "responses":[
+                "I am helping the students to process their admission."
+            ]
+        },
+        {
+            "tag":"distance",
+            "patterns":[
+                "What is the distance between railway station to central University of tamil nadu (CUTN)?",
+                "distance from railway station to campus?"
+            ],
+            "responses":[
+                "The distance between Thiruvarur Railway station and Central University of Tamil Nadu is '9.3 KM'."
+            ]
+        },
+        {
+            "tag":"available",
+            "patterns":[
+                "Does hostels / room are availble?",
+                "what about accommodation?",
+                "what about hostels?",
+                "hostels are there for accommodation?",
+                "hostel accommodation is there?",
+                "hostels are available",
+                "available hostels",
+                "Does rooms are available",
+                "hostels in the campus",
+                "hostel facility"
+
+            ],
+            "responses":[
+                "Six hostels are functioning on the campus, with three for men and three for women. To avail a hostel room, submit the hostel admission form to the hostel office along with the required documents before the deadline announced by CUTN. Please refer to the latest notification on the website https://cutn.ac.in/."
+            ]
+        },
+        {
+            "tag":"clear crack",
+            "patterns":[
+                "How to clear CUET?",
+                "How to crack cuet",
+                "Help me to clear cuet?",
+                "Guid me to crack cuet?"
+            ],
+            "responses":[
+                "1)Get good understanding of syllabus  2)analyze the exam pattern 3)Study and practice well, try to attempt as many mock tests as possible."
+            ]
+        },
+        {
+            "tag":"Placements",
+            "patterns":[
+                "What about placements",
+                "List out the placements",
+                "Show me the placements"
+            ],
+            "responses":[
+            ]
+        },
+        {
+            "tag":"open",
+            "patterns":[
+                "when will the class will be started?",
+                "When will first year class start?",
+                "Commencement of classes",
+                "When will university conduct / starts classes",
+                "Can you tell me when will be classes starts for first years"
+            ],
+            "responses":[
+                "Once the admission process completes CUTN launches a notification about the commencement of classes and also we request you to visit the CUTN website regularly to know the latest updates."
+            ]
+        },
+        {
+            "tag":"facilities",
+            "patterns":[
+                "Facilities for the students in the campus",
+                "student facilities",
+                "Facilities in the campus",
+                "facilities in cutn",
+                "How good is the campus"
+            ],
+            "responses":[
+                "1) Free wifi for students in the whole campus 2)Central Library with huge number of book collections both digital and physical books a]Reading room b]Discussion room c]Computer lab d]Online Public Access Catalog(OPAC) http://library.cutn.ac.in/ e]E-Resources f]subscription to many reputed publishers g]Digital Books and Drinking water h]visit the webpage of library to know more about facilities provided for students in the Library http://82.180.173.110/about-us/about-library/  3)Multipurpose Auditorium g]Guest House h]GYM & Play grounds i] Full encouragement of all sports j]NCC K]NSS 4)Primary Health Center(PHC) is situated at the backside of the Amenities hall with AMBULANCE service, for the basic health care of students. 5)Class rooms with DIGITAL BOARD, Media Theater 6)Bus facility for the students, CUTN's own buses are carrying the students from one block to another in the campus and many services from inside to outside of the campus and vice versa. 7)Well equipped science laboratories for each individual department for all science streams in respective disciplines. 8)Highly qualified faculty passionate to teach and learn as well. 9) You can find more on the Facilities tab in the webpage."
+            ]
+        },
+        {
+            "tag":"Scholarships",
+            "patterns":[
+                "Scholarships for students",
+                "sc and st scholarships",
+                "What about scholarships",
+                "available scholarships",
+                "Financial support for students"
+            ],
+            "responses":[
+                "Refer the students portal to know more about the scholaships https://cutn.ac.in/students_portal/ and also NSP website https://scholarships.gov.in/, vidyasaarathi portal by NSDL https://www.vidyasaarathi.co.in/Vidyasaarathi/, scholarships and fellowships by UGC https://www.ugc.ac.in/page/scholarships-and-fellowships.aspx and many private organizations are also providing scholarships for students in different aspects check in online **Beware of frauds and scams** Don't be trapped by any fraudsters  follow official websites only."
+            ]
+        },
+        {
+            "tag":"Department",
+            "patterns":[
+                "What are the departments in the cutn",
+                "Can you tell me the departments",
+                "about departments"
+            ],
+            "responses":[
+                "The following webpage describes the departments that fall under the schools https://cutn.ac.in/schools/."
+            ]
+        },
+        {
+            "tag":"Who is",
+            "patterns":[
+                "Who is vc",
+                "Who is dean",
+                "Who is hod",
+                "Who is register"
+            ],
+            "responses":[
+                "Refer 'Administration' tab. "
+            ]
+        },
+        {
+            "tag":"help",
+            "patterns":[
+                "Can you help me?"
+            ],
+            "responses":[
+                "Yes, What do you want?"
+            ]
+        },
+        {
+            "tag":"samarth",
+            "patterns":[
+                "how to open samartha portal?",
+                "link for samarth portal?",
+                "CUTNs samarth portal?",
+                "central university of tamilnadu samarth portal link?",
+                "Admission portal",
+                "CUTN admission portal?",
+                "samarath portal",
+                "samarth link"
+            ],
+            "responses":[
+                "Link for Central University of Tamil Nadu's samarth portal is https://cutn.samarth.ac.in/index.php/site/login a]Watch the following video : https://youtu.be/p0tVW352Vmk"
+            ]
+        },
+        {
+            "tag":"using samarth",
+            "patterns":[
+                "How to use samarth portal?",
+                "How to use cutn's samarth portal?",
+                "how to fill samarth portal"
+            ],
+            "responses":[
+                "Watch the following video : https://youtu.be/p0tVW352Vmk"
+            ]
+        },
+        {
+            "tag":"Fare total cost",
+            "patterns":[
+                "How much fare would be to complete my course in CUTN?",
+                "How much expensive is my course?",
+                "Can you tell me what would be the total fare for my course, including all expenses?",
+                "can you tell me the total fare to complete my pg / ug / iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech in cutn",
+                "how expensive is course",
+                "What will be the total cost to complete my course",
+                "Total cost of my course?",
+                "money needed to complete my pg / ug / iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech in cutn",
+                "Total expenditure to complete my pg / ug / iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech"
+            ],
+            "responses":[
+                "Calculate yourself by considering the following : a] Fee structure of the respective course b] Hostel fee structure c] Mess bill per month d] Maintenance and other miscellaneous expenses for your lifestyle; *Collect the latest information*"
+            ]
+        },
+        {
+            "tag":"Course details",
+            "patterns":[
+                "How to know about the course details iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech",
+                "What is the course structure of course iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech",
+                "structure of the course iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech",
+                "Proforma of my course iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech"
+            ],
+            "responses":[
+                "Visit the respective department's webpage and check the syllabus for the desired course"
+            ]
+        },
+        {
+            "tag":"status",
+            "patterns":[
+                "About my admission status?",
+                "How to check my admission status",
+                "How can i found my admission status?",
+                "how to know the admission status",
+                "Admission status of my iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech ",
+                "status of my seat in cutn for iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech"
+            ],
+            "responses":[
+                "Contact the respective department's head (HOD) via E-mail. E-mail will be available at the department's webpage."
+            ]
+        },
+        {
+            "tag":"Health care",
+            "patterns":[
+                "Health care of the students",
+                "facilities for health care of students",
+                "students health care",
+                "ambulance","Primary health center",
+                "abour health care facilities"
+            ],
+            "responses":[
+                "Primary Health Center(PHC) is situated at the backside of the Amenities hall with AMBULANCE service, for the basic health care of all students in the campus."
+            ]
+        },
+        {
+            "tag":"library",
+            "patterns":[
+                "about library?",
+                "choza central library",
+                "library in the cutn campus"
+            ],
+            "responses":[
+                "Central Library with huge number of book collections both digital and physical books a]Reading room b]Discussion room c]Computer lab d]Online Public Access Catalog(OPAC) http://library.cutn.ac.in/ e]E-Resources f]subscription to many reputed publishers g]Digital Books and Drinking water h]visit the webpage of library to know more about facilities provided for students in the Library http://82.180.173.110/about-us/about-library/"
+            ]
+        },
+        {
+            "tag":"hotels resturants",
+            "patterns":[
+                "Hotels are there in the campus cutn",
+                "resturants in the cutn campus",
+                "Shops inside the campus"
+            ],
+            "responses":[
+                "In the campus a MESS and the following shops are available a]Xerox  b]Resturant c]Fruits shop  d]snacks item shop"
+            ]
+        },
+        {
+            "tag":"parents accommodation",
+            "patterns":[
+                "i am comming with my family member, can i get one or two days accommodation rooms for my father / family member?",
+                "Accommodation rooms for my / student parents",
+                "What about the accommodation rooms for my parents in the campus",
+                "Can you help me to avail accommodation rooms for my parents in the campus"
+            ],
+            "responses":[
+                "Contact the hostel office, stuent have to submit the request letter by describing about your situation hostel staff will process your request."
+            ]
+        },
+        {
+            "tag":"counseling date",
+            "patterns":[
+                "What is the last date for counseling",
+                "counseling last date",
+                "Date of counseling for UG PG iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech "
+            ],
+            "responses":[
+                "Refer the admission tab in the webpage and check the latest notification in the CUTN website."
+            ]
+        },
+        {
+            "tag":"writen cuet",
+            "patterns":[
+                "After writing CUET how to join in cutn for UG PG iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech"
+            ],
+            "responses":[
+                "While counseling submit required documents in samarth portal"
+            ]
+        }
+    ]
+}
