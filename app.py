@@ -14,6 +14,15 @@ def index_get():
 def predictt():
     text = request.get_json().get("message")
     # TODO: check if text is valid
+    
+    with open('input_msgs.json', 'a') as f:         # Saving the input messags in the current Directory.
+     # Create a dictionary containing the input message
+       data = {"input-is": text }
+
+      # Write the dictionary to the file in JSON format
+       json.dump(data,f)
+       f.write('\n')
+    
     resp = get_replys(text)
     message = {"answer": resp}
     return jsonify({"query": message})
