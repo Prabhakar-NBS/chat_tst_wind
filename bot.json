@@ -5,12 +5,9 @@
             "tag":"greeting",
             "patterns":[
                 "Hi",
-                "hiiiiiiiiii", "hiiiii", "hiiiiiii","hiiii", "hiii", "hii", "hiiiiii","hiiiiiiiii","hiiiiiiiiiiiiiii",
-                "hiiiiiiiiiiiiiiiiiiiiiiii",
-                "ji","ho","ki gi","gi","Hel","helo",
-                "Hey heyy heyyy heyyyy heyyyyy heyyyyyyy",
-                "Hello hollo alloo helo",
-                "Helloo ","hellooo", "helloooo", "hellooooo", "helloooooo", "helloooooo"
+                "ji","ho","ki","Hel","helo",
+                "Hey",
+                "Hello"
             ],
             "responses":[
                 "Hi, how can I help you? "
@@ -21,7 +18,7 @@
             "patterns":[
                 "How are you?",
                 "How R U",
-                "How are U","howa re U","howare you","howare U"
+                "How are U"
             ],
             "responses":[
                 "I'm fine, what can I do for you?"
@@ -51,8 +48,8 @@
             "tag":"chances",
             "patterns": [
                 "What is the probability of getting seat in cutn?",
-                "Chances to get seat / join in CUTN?",
-                "Chances of getting admission / join in cutn",
+                "Chances to get seat in CUTN?",
+                "Chances of getting admission in cutn",
                 "What are the chances to get seat in cutn?",
                 "What are the chances getting admission cutn?"
             ],
@@ -100,6 +97,7 @@
                 "assist me to secure admission in cutn",
                 "how to join in cutn",
                 "admission",
+                "procedure to join course in cutn iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech",
                 "Admission for iM.A / iM.Sc / M.A / M.sc / M.com / MPA / MBA / tourism / B.Ed / LLM / m.tech"
             ],
             "responses":[
@@ -180,7 +178,7 @@
                 "near by railway station to thiruvarur",
                 "Can i reach by train",
                 "guid me to reach cutn by train",
-                "nearest railway station to cutn",
+                "nearest / closest railway station to cutn",
                 "how to reach cutn from chennai railway station"
             ],
             "responses":[
@@ -220,7 +218,8 @@
                 "airport near CUTN?",
                 "Airport",
                 "Air port",
-                "Can i reach CUTN by flight?"
+                "Can i reach CUTN by flight?",
+                "closest / nearest airport to cutn"
             ],
             "responses":[
                 "Tiruchirappalli / Trichy (120 km away) and Chennai International Airport (299 km) are the nearest airports."
@@ -250,23 +249,10 @@
                 "What is the hostel Fee structure?",
                 "Hostel fee structure?",
                 "hostel fee",
-                "hostel room rent","room rent per person",
                 "about hostel fee"
             ],
             "responses":[
                 " You can found more on the web page by click on the link : https://cutn.ac.in/hostel/# a] Hostel Mess Deposits (Refundable)  - Rs. 3000 /- b] Caution Deposit (Refundable) - Rs. 2000/- c] Room Rent - Per semester - Rs. 2000/- (SC and ST students are exempted for Room Rent)"
-            ]
-        },
-        {
-            "tag":"people",
-            "patterns":[
-                "how many persons are there in hostel room",
-                "persons per hostel room",
-                "mens per hostel room",
-                "how many peoples / persons will be allotted per one hostel room"
-            ],
-            "responses":[
-                "It will be decided by the hostel administration."
             ]
         },
         {
@@ -303,6 +289,7 @@
             "patterns":[
                 "List out the courses available in CUTN ?",
                 "courses list",
+                "list of xourses",
                 "list the courses?",
                 "Courses offered in cutn",
                 "available courses",
@@ -328,7 +315,8 @@
             "patterns":[
                 "How to contact CUTN?",
                 "Contact number?",
-                "contact no."
+                "contact no.",
+                "contact admission"
             ],
             "responses":[
                 "TELEPHONE : +91 4366 277230 ; INTERNATIONAL : +91 4366 277230 a] EMAIL: admissions@cutn.ac.in  b]For Admission queries only : 9443180353 / 6382775375 / 9489329760 / 9901302124 / 9631240595"
@@ -376,11 +364,10 @@
                 "payment process",
                 "how to pay feee",
                 "can you tell me how to pay fee",
-                "guid me to pay admission fee",
-                "SBI collect"
+                "guid me to pay admission fee"
             ],
             "responses":[
-                "1)Open the SBI collect website https://www.onlinesbi.sbi/sbicollect/icollecthome.htm and Search for 'Central University of Tamil Nadu' in the Search bar or 2)Select the 'Educational Institution' in category 3)Type the Educational Institution Name as 'Central University of Tamil Nadu'. 4)Click on the institution name. 5)Choose the appropriate payment category and fill the particulars accordingly a]For Admission: choose 'NEW ADMISSION'. 6)Choose the payment method & pay accordingly. 7)** Fill the Particulars carefully **** Must DOWNLOAD / PRINT the E-receipt. **"
+                "1)Open the website https://www.onlinesbi.sbi/sbicollect/icollecthome.htm Search for 'Central University of Tamil Nadu' in the Search bar or 2)Select the 'Educational Institution' in category 3)Type the Educational Institution Name as 'Central University of Tamil Nadu'. 4)Click on the institution name. 5)Choose the appropriate payment category and fill the particulars accordingly a]For Admission: choose 'NEW ADMISSION'. 6)Choose the payment method & pay accordingly. 7)** Fill the Particulars carefully **** Must DOWNLOAD / PRINT the E-receipt. **"
             ]
         },
         {
@@ -500,8 +487,7 @@
                 "Does the campus is drug free",
                 "ganja is allowed in the campus",
                 "Beer liquor is allowed?",
-                "cigarettes are permitted",
-                "cigareets are available"
+                "cigarettes are permitted"
             ],
             "responses":[
                 "Consumption of all kinds of 'psychoactive drugs'(psychoactive substances include a]Alcohol g]Cigarettes h]Ganja b]Caffeine c]Nicotine d]Marijuana e]certain pain medicines. f]Many illegal drugs, such as heroin, LSD,cocaine, and amphetamines are also psychoactive substances. Also called psychotropic substances)  are strictly PROHIBITED inside and around the campus."
@@ -554,7 +540,8 @@
                 "available hostels",
                 "Does rooms are available",
                 "hostels in the campus",
-                "hostel facility"
+                "hostel facility",
+                "how many hostels are there ?"
 
             ],
             "responses":[
